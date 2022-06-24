@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: url(img/pexels-victor-freitas-841130.jpg) center center/cover ;
+            color: beige;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: chartreuse;
+        }
+
+        .left {
+            position: absolute;
+            top: 20px;
+            left: 80px;
+            display: inline;
+            line-height: 0%;
+            font-size: 20px;
+
+        }
+
+        .mid {
+            width: 50%;
+            margin: 20px auto;
+
+        }
+
+        .right {
+            position: absolute;
+            top: 20px;
+            right: 10px;
+            display: inline;
+
+        }
+
+        .mid ul {
+            margin: 10px 10px;
+        }
+
+        .mid li {
+            display: inline-block;
+
+        }
+
+        .mid a {
+            text-decoration: none;
+
+            color: chartreuse;
+            font-size: 20px;
+            padding: 6px 30px;
+        }
+
+        .mid a:hover,
+        .mid a.active {
+            color: pink;
+            text-decoration: underline;
+        }
+
+        .left img {
+            width: 150px;
+
+            /* filter: invert(100%);  */
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .btn {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: black;
+            color: chartreuse;
+            margin: 0px 10px;
+            padding: 2px 15px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+            /* gives a hand sign while hover */
+        }
+
+        .btn:hover {
+            background-color: blue;
+        }
+
+        .container {
+            border: 2px solid chartreuse;
+            border-radius: 10px;
+            margin: 162px 93px;
+            width: 45%;
+            padding: 47px 44px;
+        
+        }
+        .form input{
+            text-align: center;
+            background-color:hotpink ;
+            border-radius: 10px;
+            display: block;
+            width: 70%;
+            margin: 10px auto;
+            padding: 2px 2px;
+            font-size: 20px;
+            color: black;
+
+        }
+        h1{
+            text-align: center;
+        }
+        .container .btn{
+            display: block;
+            margin:12px auto;
+            width:71%;
+            padding: 10px 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="head">
+        <div class="left">
+            <img src="/img/istockphoto-876895654-612x612.jpg" alt="">
+            <div>Deepak's Fitness</div>0
+        </div>
+        <div class="mid">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Fitess calcuator</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best Gym Now</h1>
+        <form action="noaction.php">
+            <div class="form">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <button class="btn">Submit Now</button>
+        </form>
+    </div>
+</body>
+
+</html>
